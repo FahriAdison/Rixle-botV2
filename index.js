@@ -21,7 +21,7 @@ global.antidelete = false
  
  
 console.log(Ft.banner.string)
-conn.version = [2, 2119, 6]
+conn.version = [2, 2143, 3]
 conn.logger.level = "warn"
 
 if (fs.existsSync('./session.json')) conn.loadAuthInfo('./session.json')
